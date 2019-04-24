@@ -1,0 +1,50 @@
+/*body{*/
+/*    margin: 0;*/
+/*    background: url(../images/bg.jpg)  no-repeat;*/
+/*    background-size: cover;*/
+/*    !*-ms-behavior: url(../library/backgroundsize.min.htc);*!*/
+/*    !*behavior: url(../library/backgroundsize.min.htc);*!*/
+/*    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/bg.jpg', sizingMethod=scale);*/
+/*    !*-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/bg.jpg', sizingMethod=scale);*!*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    position: fixed;*/
+/*}*/
+.header{
+    text-align: center;
+}
+.header a{
+    display: inline-block;
+    width: 200px;
+    margin: 1% auto;
+}
+.header img{
+    width: 200px;
+    height: 185px;
+}
+.table{
+    width: 40%;
+    margin: 2% auto;
+    background-color: #ffffff;
+}
+
+.table>tbody>tr>td{
+    padding: 15px;
+    vertical-align: middle!important;
+    border-right: solid #ddd 1px;
+    border-bottom: solid #ddd 1px;
+    font-size: 14px;
+    white-space: pre-line;
+
+}
+.glyphicon-ok-circle{
+    color: #2aabd2;
+}
+.glyphicon-remove-circle{
+    color: 	#DC143C;
+}
+.table>tbody>tr td span.tag{
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+}
